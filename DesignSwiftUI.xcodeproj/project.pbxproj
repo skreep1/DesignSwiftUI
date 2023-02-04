@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4A1DB443298DBD660062D939 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB442298DBD660062D939 /* HomeView.swift */; };
+		4A1DB44B298ECAD20062D939 /* OnboardingOneImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB44A298ECAD20062D939 /* OnboardingOneImageView.swift */; };
+		4A1DB44D298ECBD60062D939 /* OnboardingOneTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB44C298ECBD60062D939 /* OnboardingOneTextView.swift */; };
+		4A1DB450298ED1670062D939 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB44F298ED1670062D939 /* TopBarView.swift */; };
+		4A1DB452298ED1E10062D939 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB451298ED1E10062D939 /* StepperView.swift */; };
+		4A1DB454298ED2D20062D939 /* TitleBillingInvoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB453298ED2D20062D939 /* TitleBillingInvoTextView.swift */; };
+		4A1DB456298ED5440062D939 /* ButtonBuySubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB455298ED5440062D939 /* ButtonBuySubView.swift */; };
+		4A1DB458298ED5970062D939 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB457298ED5970062D939 /* PrivacyView.swift */; };
+		4A1DB45A298EDEBA0062D939 /* BilledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB459298EDEBA0062D939 /* BilledView.swift */; };
+		4A1DB45D298EDF940062D939 /* SuggestionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB45C298EDF940062D939 /* SuggestionTitleView.swift */; };
+		4A1DB45F298EDFAA0062D939 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB45E298EDFAA0062D939 /* CardView.swift */; };
+		4A1DB461298EE10C0062D939 /* CategoryMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB460298EE10C0062D939 /* CategoryMenuView.swift */; };
+		4A1DB463298EE1D70062D939 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB462298EE1D70062D939 /* BottomView.swift */; };
+		4A1DB466298EE2D00062D939 /* TittleSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB465298EE2D00062D939 /* TittleSettingsView.swift */; };
+		4A1DB468298EE3290062D939 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB467298EE3290062D939 /* BackButtonView.swift */; };
+		4A1DB46B298EE3E00062D939 /* FrameSettingsOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB46A298EE3E00062D939 /* FrameSettingsOneView.swift */; };
+		4A1DB46D298EE4BC0062D939 /* FrameSettingsTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB46C298EE4BC0062D939 /* FrameSettingsTwoView.swift */; };
+		4A1DB46F298EE50D0062D939 /* FrameSettingsThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB46E298EE50D0062D939 /* FrameSettingsThreeView.swift */; };
+		4A1DB471298EF6050062D939 /* OnboardingOneIndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB470298EF6050062D939 /* OnboardingOneIndView.swift */; };
 		4A827EA3298D7EB300685778 /* DesignSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EA2298D7EB300685778 /* DesignSwiftUIApp.swift */; };
 		4A827EA5298D7EB300685778 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EA4298D7EB300685778 /* ContentView.swift */; };
 		4A827EA7298D7EB500685778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EA6298D7EB500685778 /* Assets.xcassets */; };
@@ -28,6 +46,24 @@
 
 /* Begin PBXFileReference section */
 		4A1DB442298DBD660062D939 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4A1DB44A298ECAD20062D939 /* OnboardingOneImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOneImageView.swift; sourceTree = "<group>"; };
+		4A1DB44C298ECBD60062D939 /* OnboardingOneTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOneTextView.swift; sourceTree = "<group>"; };
+		4A1DB44F298ED1670062D939 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		4A1DB451298ED1E10062D939 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		4A1DB453298ED2D20062D939 /* TitleBillingInvoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBillingInvoTextView.swift; sourceTree = "<group>"; };
+		4A1DB455298ED5440062D939 /* ButtonBuySubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuySubView.swift; sourceTree = "<group>"; };
+		4A1DB457298ED5970062D939 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		4A1DB459298EDEBA0062D939 /* BilledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilledView.swift; sourceTree = "<group>"; };
+		4A1DB45C298EDF940062D939 /* SuggestionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTitleView.swift; sourceTree = "<group>"; };
+		4A1DB45E298EDFAA0062D939 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4A1DB460298EE10C0062D939 /* CategoryMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMenuView.swift; sourceTree = "<group>"; };
+		4A1DB462298EE1D70062D939 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		4A1DB465298EE2D00062D939 /* TittleSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TittleSettingsView.swift; sourceTree = "<group>"; };
+		4A1DB467298EE3290062D939 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		4A1DB46A298EE3E00062D939 /* FrameSettingsOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSettingsOneView.swift; sourceTree = "<group>"; };
+		4A1DB46C298EE4BC0062D939 /* FrameSettingsTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSettingsTwoView.swift; sourceTree = "<group>"; };
+		4A1DB46E298EE50D0062D939 /* FrameSettingsThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSettingsThreeView.swift; sourceTree = "<group>"; };
+		4A1DB470298EF6050062D939 /* OnboardingOneIndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOneIndView.swift; sourceTree = "<group>"; };
 		4A827E9F298D7EB300685778 /* DesignSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A827EA2298D7EB300685778 /* DesignSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSwiftUIApp.swift; sourceTree = "<group>"; };
 		4A827EA4298D7EB300685778 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,9 +98,88 @@
 		4A1DB441298DBD380062D939 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				4A1DB45B298EDF6E0062D939 /* Components */,
 				4A1DB442298DBD660062D939 /* HomeView.swift */,
 			);
 			path = HomeView;
+			sourceTree = "<group>";
+		};
+		4A1DB446298EC9D90062D939 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB44A298ECAD20062D939 /* OnboardingOneImageView.swift */,
+				4A1DB44C298ECBD60062D939 /* OnboardingOneTextView.swift */,
+				4A1DB470298EF6050062D939 /* OnboardingOneIndView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A1DB447298ECA570062D939 /* OnboardingOne */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB446298EC9D90062D939 /* Components */,
+				4A827EB2298D83C100685778 /* OnboardingOneView.swift */,
+			);
+			path = OnboardingOne;
+			sourceTree = "<group>";
+		};
+		4A1DB44E298ED15B0062D939 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB44F298ED1670062D939 /* TopBarView.swift */,
+				4A1DB451298ED1E10062D939 /* StepperView.swift */,
+				4A1DB453298ED2D20062D939 /* TitleBillingInvoTextView.swift */,
+				4A1DB455298ED5440062D939 /* ButtonBuySubView.swift */,
+				4A1DB457298ED5970062D939 /* PrivacyView.swift */,
+				4A1DB459298EDEBA0062D939 /* BilledView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A1DB45B298EDF6E0062D939 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB45C298EDF940062D939 /* SuggestionTitleView.swift */,
+				4A1DB45E298EDFAA0062D939 /* CardView.swift */,
+				4A1DB460298EE10C0062D939 /* CategoryMenuView.swift */,
+				4A1DB462298EE1D70062D939 /* BottomView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A1DB464298EE2BD0062D939 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB465298EE2D00062D939 /* TittleSettingsView.swift */,
+				4A1DB467298EE3290062D939 /* BackButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4A1DB469298EE37B0062D939 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB46A298EE3E00062D939 /* FrameSettingsOneView.swift */,
+				4A1DB46C298EE4BC0062D939 /* FrameSettingsTwoView.swift */,
+				4A1DB46E298EE50D0062D939 /* FrameSettingsThreeView.swift */,
+			);
+			path = Frames;
+			sourceTree = "<group>";
+		};
+		4A1DB472298EF91D0062D939 /* OnboardingTwo */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EE7298D964D00685778 /* OnboardingTwoView.swift */,
+			);
+			path = OnboardingTwo;
+			sourceTree = "<group>";
+		};
+		4A1DB473298EF94B0062D939 /* OnboardingThree */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EEB298D96DA00685778 /* OnboardingThreeView.swift */,
+			);
+			path = OnboardingThree;
 			sourceTree = "<group>";
 		};
 		4A827E96298D7EB300685778 = {
@@ -113,9 +228,9 @@
 		4A827EB4298D83E300685778 /* OnboardingView */ = {
 			isa = PBXGroup;
 			children = (
-				4A827EB2298D83C100685778 /* OnboardingOneView.swift */,
-				4A827EE7298D964D00685778 /* OnboardingTwoView.swift */,
-				4A827EEB298D96DA00685778 /* OnboardingThreeView.swift */,
+				4A1DB473298EF94B0062D939 /* OnboardingThree */,
+				4A1DB472298EF91D0062D939 /* OnboardingTwo */,
+				4A1DB447298ECA570062D939 /* OnboardingOne */,
 			);
 			path = OnboardingView;
 			sourceTree = "<group>";
@@ -143,6 +258,7 @@
 		4A827EEF298D97B400685778 /* SubscriptionView */ = {
 			isa = PBXGroup;
 			children = (
+				4A1DB44E298ED15B0062D939 /* Components */,
 				4A827EF0298D97CF00685778 /* SubscriptionView.swift */,
 			);
 			path = SubscriptionView;
@@ -151,6 +267,8 @@
 		4A827EF2298D97E400685778 /* SettingsView */ = {
 			isa = PBXGroup;
 			children = (
+				4A1DB469298EE37B0062D939 /* Frames */,
+				4A1DB464298EE2BD0062D939 /* Components */,
 				4A827EF3298D97F400685778 /* SettingsView.swift */,
 			);
 			path = SettingsView;
@@ -233,14 +351,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A1DB443298DBD660062D939 /* HomeView.swift in Sources */,
+				4A1DB452298ED1E10062D939 /* StepperView.swift in Sources */,
+				4A1DB44D298ECBD60062D939 /* OnboardingOneTextView.swift in Sources */,
+				4A1DB45A298EDEBA0062D939 /* BilledView.swift in Sources */,
 				4A827EA5298D7EB300685778 /* ContentView.swift in Sources */,
+				4A1DB46D298EE4BC0062D939 /* FrameSettingsTwoView.swift in Sources */,
 				4A827EF4298D97F400685778 /* SettingsView.swift in Sources */,
+				4A1DB46B298EE3E00062D939 /* FrameSettingsOneView.swift in Sources */,
+				4A1DB471298EF6050062D939 /* OnboardingOneIndView.swift in Sources */,
+				4A1DB458298ED5970062D939 /* PrivacyView.swift in Sources */,
+				4A1DB45F298EDFAA0062D939 /* CardView.swift in Sources */,
 				4A827EA3298D7EB300685778 /* DesignSwiftUIApp.swift in Sources */,
+				4A1DB456298ED5440062D939 /* ButtonBuySubView.swift in Sources */,
+				4A1DB46F298EE50D0062D939 /* FrameSettingsThreeView.swift in Sources */,
+				4A1DB44B298ECAD20062D939 /* OnboardingOneImageView.swift in Sources */,
 				4A827EEC298D96DA00685778 /* OnboardingThreeView.swift in Sources */,
 				4A827EE8298D964D00685778 /* OnboardingTwoView.swift in Sources */,
 				4A827EB3298D83C100685778 /* OnboardingOneView.swift in Sources */,
+				4A1DB454298ED2D20062D939 /* TitleBillingInvoTextView.swift in Sources */,
+				4A1DB468298EE3290062D939 /* BackButtonView.swift in Sources */,
+				4A1DB466298EE2D00062D939 /* TittleSettingsView.swift in Sources */,
+				4A1DB461298EE10C0062D939 /* CategoryMenuView.swift in Sources */,
 				4A827EF1298D97CF00685778 /* SubscriptionView.swift in Sources */,
+				4A1DB450298ED1670062D939 /* TopBarView.swift in Sources */,
+				4A1DB463298EE1D70062D939 /* BottomView.swift in Sources */,
 				4A827EB1298D828D00685778 /* SplashView.swift in Sources */,
+				4A1DB45D298EDF940062D939 /* SuggestionTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

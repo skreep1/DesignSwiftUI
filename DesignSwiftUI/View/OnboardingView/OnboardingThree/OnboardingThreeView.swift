@@ -1,5 +1,5 @@
 //
-//  OnboardingOneView.swift
+//  OnboardingThreeView.swift
 //  DesignSwiftUI
 //
 //  Created by Maksim Skrypka on 03.02.2023.
@@ -7,33 +7,33 @@
 
 import SwiftUI
 
-struct OnboardingOneView: View {
+struct OnboardingThreeView: View {
     var body: some View {
         
         VStack {
-            Image("onboardingOne")
-                .padding()
-            Text("Expert Advisor")
+            ImageOnboardingThreeView()
+            Text("Save Your")
                 .padding(1)
                 .font(.custom("Poppins-Bold", fixedSize: 24))
-            Text("In All Fields")
+            Text("Conversations")
                 .font(.custom("Poppins-Bold", fixedSize: 24))
                 .padding(.bottom, 90)
             
             //MARK: Custom indicator page
             HStack {
-                Color("purpleColor")
+                Color("grayColor")
                     .cornerRadius(3)
                     .frame(width: 43, height: 3)
                 
                 Color("grayColor")
                     .cornerRadius(3)
                     .frame(width: 43, height: 3)
-                Color("grayColor")
+                Color("purpleColor")
                     .cornerRadius(3)
                     .frame(width: 43, height: 3)
             }
     
+            
             Text("Next")
                 .font(.custom("Poppins-Bold", fixedSize: 14))
                 .frame(width: 334)
@@ -48,8 +48,17 @@ struct OnboardingOneView: View {
     }
 }
 
-struct OnboardingOneView_Previews: PreviewProvider {
+struct OnboardingThreeView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingOneView()
+        OnboardingThreeView()
+    }
+}
+
+struct ImageOnboardingThreeView: View {
+    var body: some View {
+        VStack {
+            Image("onboardingThree")
+                .padding()
+        }
     }
 }
