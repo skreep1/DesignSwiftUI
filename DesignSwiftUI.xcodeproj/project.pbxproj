@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1DB443298DBD660062D939 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DB442298DBD660062D939 /* HomeView.swift */; };
 		4A827EA3298D7EB300685778 /* DesignSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EA2298D7EB300685778 /* DesignSwiftUIApp.swift */; };
 		4A827EA5298D7EB300685778 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EA4298D7EB300685778 /* ContentView.swift */; };
 		4A827EA7298D7EB500685778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EA6298D7EB500685778 /* Assets.xcassets */; };
 		4A827EAA298D7EB500685778 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EA9298D7EB500685778 /* Preview Assets.xcassets */; };
+		4A827EB1298D828D00685778 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EB0298D828D00685778 /* SplashView.swift */; };
+		4A827EB3298D83C100685778 /* OnboardingOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EB2298D83C100685778 /* OnboardingOneView.swift */; };
+		4A827EDC298D8DCB00685778 /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EDB298D8DCB00685778 /* Poppins */; };
+		4A827EDE298D8E5700685778 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EDD298D8E5700685778 /* Poppins-Black.ttf */; };
+		4A827EE0298D8E6100685778 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EDF298D8E6100685778 /* Poppins-Light.ttf */; };
+		4A827EE2298D8E9F00685778 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EE1298D8E9F00685778 /* Poppins-Bold.ttf */; };
+		4A827EE4298D94F000685778 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EE3298D94F000685778 /* Poppins-Regular.ttf */; };
+		4A827EE6298D951900685778 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A827EE5298D951900685778 /* Poppins-Medium.ttf */; };
+		4A827EE8298D964D00685778 /* OnboardingTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EE7298D964D00685778 /* OnboardingTwoView.swift */; };
+		4A827EEC298D96DA00685778 /* OnboardingThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EEB298D96DA00685778 /* OnboardingThreeView.swift */; };
+		4A827EF1298D97CF00685778 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EF0298D97CF00685778 /* SubscriptionView.swift */; };
+		4A827EF4298D97F400685778 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A827EF3298D97F400685778 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1DB442298DBD660062D939 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4A827E9F298D7EB300685778 /* DesignSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A827EA2298D7EB300685778 /* DesignSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSwiftUIApp.swift; sourceTree = "<group>"; };
 		4A827EA4298D7EB300685778 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A827EA6298D7EB500685778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A827EA9298D7EB500685778 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A827EB0298D828D00685778 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4A827EB2298D83C100685778 /* OnboardingOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOneView.swift; sourceTree = "<group>"; };
+		4A827EDA298D89FD00685778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4A827EDB298D8DCB00685778 /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Poppins; path = ../../../Downloads/Poppins; sourceTree = "<group>"; };
+		4A827EDD298D8E5700685778 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../Downloads/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4A827EDF298D8E6100685778 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		4A827EE1298D8E9F00685778 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		4A827EE3298D94F000685778 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		4A827EE5298D951900685778 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		4A827EE7298D964D00685778 /* OnboardingTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwoView.swift; sourceTree = "<group>"; };
+		4A827EEB298D96DA00685778 /* OnboardingThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingThreeView.swift; sourceTree = "<group>"; };
+		4A827EF0298D97CF00685778 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		4A827EF3298D97F400685778 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1DB441298DBD380062D939 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB442298DBD660062D939 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		4A827E96298D7EB300685778 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +86,14 @@
 		4A827EA1298D7EB300685778 /* DesignSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A827EED298D972C00685778 /* View */,
+				4A827EDD298D8E5700685778 /* Poppins-Black.ttf */,
+				4A827EE1298D8E9F00685778 /* Poppins-Bold.ttf */,
+				4A827EDF298D8E6100685778 /* Poppins-Light.ttf */,
+				4A827EE3298D94F000685778 /* Poppins-Regular.ttf */,
+				4A827EE5298D951900685778 /* Poppins-Medium.ttf */,
+				4A827EDB298D8DCB00685778 /* Poppins */,
+				4A827EDA298D89FD00685778 /* Info.plist */,
 				4A827EA2298D7EB300685778 /* DesignSwiftUIApp.swift */,
 				4A827EA4298D7EB300685778 /* ContentView.swift */,
 				4A827EA6298D7EB500685778 /* Assets.xcassets */,
@@ -65,6 +108,52 @@
 				4A827EA9298D7EB500685778 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A827EB4298D83E300685778 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EB2298D83C100685778 /* OnboardingOneView.swift */,
+				4A827EE7298D964D00685778 /* OnboardingTwoView.swift */,
+				4A827EEB298D96DA00685778 /* OnboardingThreeView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		4A827EED298D972C00685778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DB441298DBD380062D939 /* HomeView */,
+				4A827EF2298D97E400685778 /* SettingsView */,
+				4A827EEF298D97B400685778 /* SubscriptionView */,
+				4A827EEE298D974100685778 /* SplashView */,
+				4A827EB4298D83E300685778 /* OnboardingView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A827EEE298D974100685778 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EB0298D828D00685778 /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		4A827EEF298D97B400685778 /* SubscriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EF0298D97CF00685778 /* SubscriptionView.swift */,
+			);
+			path = SubscriptionView;
+			sourceTree = "<group>";
+		};
+		4A827EF2298D97E400685778 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				4A827EF3298D97F400685778 /* SettingsView.swift */,
+			);
+			path = SettingsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A827EDE298D8E5700685778 /* Poppins-Black.ttf in Resources */,
+				4A827EE2298D8E9F00685778 /* Poppins-Bold.ttf in Resources */,
+				4A827EE4298D94F000685778 /* Poppins-Regular.ttf in Resources */,
+				4A827EE0298D8E6100685778 /* Poppins-Light.ttf in Resources */,
+				4A827EDC298D8DCB00685778 /* Poppins in Resources */,
+				4A827EE6298D951900685778 /* Poppins-Medium.ttf in Resources */,
 				4A827EAA298D7EB500685778 /* Preview Assets.xcassets in Resources */,
 				4A827EA7298D7EB500685778 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1DB443298DBD660062D939 /* HomeView.swift in Sources */,
 				4A827EA5298D7EB300685778 /* ContentView.swift in Sources */,
+				4A827EF4298D97F400685778 /* SettingsView.swift in Sources */,
 				4A827EA3298D7EB300685778 /* DesignSwiftUIApp.swift in Sources */,
+				4A827EEC298D96DA00685778 /* OnboardingThreeView.swift in Sources */,
+				4A827EE8298D964D00685778 /* OnboardingTwoView.swift in Sources */,
+				4A827EB3298D83C100685778 /* OnboardingOneView.swift in Sources */,
+				4A827EF1298D97CF00685778 /* SubscriptionView.swift in Sources */,
+				4A827EB1298D828D00685778 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +371,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +400,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
