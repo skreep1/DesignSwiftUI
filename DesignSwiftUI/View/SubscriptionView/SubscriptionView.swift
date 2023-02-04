@@ -38,7 +38,7 @@ struct SubscriptionView: View {
                 // MARK: Stepper
                 
                 VStack {
-                   
+                    
                     
                     VStack {
                         HStack {
@@ -49,55 +49,51 @@ struct SubscriptionView: View {
                         }
                         HStack {
                             ZStack {
-                                Image("rectagle")
+                                Image("rect")
                                     .padding()
+                                
                                 VStack {
                                     Image("step1")
-                                        .padding()
+                                    Spacer()
                                     Image("step2")
-                                        .padding()
+                                    Spacer()
                                     Image("step3")
-                                        .padding()
-                                        
-                                    Image("gradientRect")
-                                       // .padding()
+                                    Spacer()
                                     
                                 }
                                 
                             }
-                            .padding(.bottom, 30)
                             
                             HStack {
                                 VStack(alignment: .leading) {
-                                Text("Today")
-                                    .font(.custom("Poppins-Bold", fixedSize: 15))
-                                    
+                                    Text("Today")
+                                        .font(.custom("Poppins-Bold", fixedSize: 15))
                                     Text("Get instant access and see how it can change your life.")
                                         .font(.custom("Poppins-Regular", fixedSize: 13))
+                                    
                                         .foregroundColor(Color("grayTextStepColor"))
                                         .padding(.bottom)
                                     
                                     
                                     Text("Day 5")
                                         .font(.custom("Poppins-Bold", fixedSize: 15))
-                                    
-                                        Text("We’ll remind you with an email or notification that your trial is ending.")
-                                            .font(.custom("Poppins-Regular", fixedSize: 13))
-                                            .foregroundColor(Color("grayTextStepColor"))
-                                            .padding(.bottom)
+                                    Text("We’ll remind you with an email or notification that your trial is ending.")
+                                        .font(.custom("Poppins-Regular", fixedSize: 13))
+                                        .foregroundColor(Color("grayTextStepColor"))
+                                        .padding(.bottom)
                                     
                                     Text("Day 7")
                                         .font(.custom("Poppins-Bold", fixedSize: 15))
                                     
-                                        Text("You’ll be charged on February 6, cancel anytime before.")
-                                            .font(.custom("Poppins-Regular", fixedSize: 13))
-                                            .foregroundColor(Color("grayTextStepColor"))
-                                            .padding(.bottom)
+                                    Text("You’ll be charged on February 6, cancel anytime before.")
+                                        .font(.custom("Poppins-Regular", fixedSize: 13))
+                                        .foregroundColor(Color("grayTextStepColor"))
+                                        .padding(.bottom, 20)
+                                    
                                 }
                                 
                             }
                             
-                            Spacer()
                         }
                         
                         
@@ -109,54 +105,6 @@ struct SubscriptionView: View {
                     
                     
                 }
-                //                    HStack {
-                //                        Image("step1")
-                //                            .padding(.trailing)
-                //
-                //
-                //                        VStack(alignment: .leading) {
-                //                            Text("Today")
-                //                                .font(.custom("Poppins-Bold", fixedSize: 15))
-                //                            Text("Get instant access and see how it can change your life.")
-                //                                .font(.custom("Poppins-Regular", fixedSize: 13))
-                //                                .foregroundColor(Color("grayTextStepColor"))
-                //
-                //                        }
-                //
-                //                    }
-                //                    HStack {
-                //                        Image("step2")
-                //                            .padding(.trailing)
-                //                        VStack(alignment: .leading) {
-                //                            Text("Day 5")
-                //                                .font(.custom("Poppins-Bold", fixedSize: 15))
-                //                            Text("We’ll remind you with an email or notification that your trial is ending.")
-                //                                .font(.custom("Poppins-Regular", fixedSize: 13))
-                //                                .foregroundColor(Color("grayTextStepColor"))
-                //
-                //                        }
-                //
-                //                    }
-                //                    HStack {
-                //                        Image("step3")
-                //                            .padding(.trailing)
-                //                        VStack(alignment: .leading) {
-                //                            Text("Day 7")
-                //                                .font(.custom("Poppins-Bold", fixedSize: 15))
-                //                            Text("You’ll be charged on February 6, cancel anytime before.")
-                //                                .font(.custom("Poppins-Regular", fixedSize: 13))
-                //                                .foregroundColor(Color("grayTextStepColor"))
-                //
-                //                        }
-                //
-                //                    }
-                //                    // Image("gradientRect")
-                //
-                //                }
-                //                .padding()
-                //                .background(Color("grayBackgroundFrameColor"))
-                //                .cornerRadius(10)
-                //  Spacer()
                 
                 // MARK: Title text
                 VStack(spacing: 10) {
