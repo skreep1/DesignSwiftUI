@@ -8,40 +8,37 @@
 import SwiftUI
 
 struct CategoryMenuView: View {
+    var text: String
+    @Binding var selected: String
+
     var body: some View {
+        
         HStack {
             Button(action: {
-                //    self.chek.toggle()
+                selected = text
                 print("btn")
             }) {
-                Text("All")
+                Text(text)
                     .padding()
-                    .background(Color("categoryItemBackgorund"))
+                    .foregroundColor(selected == text ? Color("purpleColor") : .black)
+                    .background( ZStack {
+                        if (selected == text) { Color ("categoryItemBackgorund")
+                        } else {
+                            Text(text)
+                                .padding()
+                                .background(Color("grayColorCard"))
+                                .cornerRadius(10)
+                                .foregroundColor(Color.black)
+                                .font(.custom("Poppins-Medium", fixedSize: 12))
+                            
+                        }
+                    })
                     .cornerRadius(10)
                     .foregroundColor(Color.black)
                     .font(.custom("Poppins-Medium", fixedSize: 12))
-                    .padding(.leading)
-                
-                Text("Creative wririting")
-                    .padding()
-                    .background(Color("grayColorCard"))
-                    .cornerRadius(10)
-                    .foregroundColor(Color.black)
-                    .font(.custom("Poppins-Medium", fixedSize: 12))
-                Text("Communication")
-                    .padding()
-                    .background(Color("grayColorCard"))
-                    .cornerRadius(10)
-                    .foregroundColor(Color.black)
-                    .font(.custom("Poppins-Medium", fixedSize: 12))
+                    .padding(.leading, 10)
+
             }
         }
-    }
-}
-
-
-struct CategoryMenuView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryMenuView()
     }
 }

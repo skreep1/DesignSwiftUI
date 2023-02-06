@@ -23,7 +23,7 @@ struct ButtonBuySubView: View {
                     .background(Color("purpleColor"))
                     .cornerRadius(8)
                     .foregroundColor(.white)
-                    .padding(40)
+                    .padding(15)
             }
         }
     }
